@@ -6,4 +6,9 @@
 
 ## Citing
 
-See `CITATION.bib` for the relevant reference(s).
+See [CITATION.bib](CITATION.bib) for the relevant reference(s).
+
+## License
+
+The software provided by this project is licensed under a [ISC License](LICENSE).
+The documentation is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/), excluding any source code examples or tests embeded therein.
