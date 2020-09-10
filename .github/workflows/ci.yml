@@ -10,7 +10,7 @@ jobs:
       fail-fast: false
       matrix:
         version:
-          - '1.4'
+          - '1.5'
           - 'nightly'
         os:
           - ubuntu-latest
@@ -56,8 +56,8 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: doctest
-            using Example
-            doctest(Example)'
+            using GOESRLevel0
+            doctest(GOESRLevel0)'
       - run: julia --project=docs docs/make.jl
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
