@@ -1,15 +1,22 @@
-using Documenter, GOESRLevel0
+using GOESRLevel0
+using Documenter
 
 makedocs(;
-    modules=[GOESRLevel0],
-    format=Documenter.HTML(),
-    pages=[
-        "Home" => "index.md",
-    ],
-    repo="https://github.com/benelsen/GOESRLevel0.jl/blob/{commit}{path}#L{line}",
     sitename="GOESRLevel0.jl",
     authors="Ben Elsen <mail@benelsen.com>",
-    assets=String[],
+    modules=[GOESRLevel0],
+    format=Documenter.HTML(;
+        prettyurls=get(ENV, "CI", "false") == "true",
+        canonical="https://benelsen.github.io/GOESRLevel0.jl",
+        assets=String[],
+    ),
+    pages=[
+        "Home" => "index.md",
+        "Guide" => "guide.md",
+        "Data" => "data.md",
+        "Library" => "library.md",
+    ],
+    repo="https://github.com/benelsen/GOESRLevel0.jl/blob/{commit}{path}#L{line}",
 )
 
 deploydocs(;

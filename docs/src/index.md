@@ -1,8 +1,17 @@
-# GOESRLevel0.jl
+# Home
 
-```@index
+## Contents
+```@contents
+Depth = 2
+Pages = [
+  "index.md",
+  "guide.md",
+  "data.md",
+  "library.md",
+]
 ```
 
-```@autodocs
-Modules = [GOESRLevel0]
+## License
+```@raw html
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
 ```
